@@ -1,0 +1,43 @@
+project:
+  type: website
+  render:
+   - "*.qmd"
+  output-dir: docs
+
+format:
+  html:
+    theme: 
+      - custom_style.scss
+    css: styles.css
+    toc: true
+    highlight-style: monokai
+
+execute:
+  freeze: auto
+
+website:
+  title: "Tools for efficient workflows, smooth collaboration and optimised research outputs"
+  site-url: "https://jschultecloos.github.io/gesis-22-research-infrastructure-tools"
+  description-meta: "GESIS Fall Seminar in Computational Social Science 2022. This course trains students to write reproducible research papers, track their work through version control, and efficiently disseminate their research output."
+  navbar:
+    pinned: true
+    background: "#ebb00f"
+    right:
+      - schedule.qmd
+      - href: "https://training.gesis.org/?site=pDetails&child=full&pID=0xB75F899267F14C648AED7D43EBFF3BFB&subID=0x0ECFCCE392F64C7281C5FDE598767F2F"
+        text: "{{< fa link >}}"
+    
+
+  page-footer:
+    left: "Content {{< fa brands creative-commons >}} {{< var course.copyright_year >}} by [{{< var instructor1.name >}}]({{< var instructor1.url >}}) & [{{< var instructor2.name >}}]({{< var instructor2.url >}})"
+    right: |
+      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
+
+  favicon: "/img/favicon.ico"
+  twitter-card:
+    image: "/img/twitter.png"
+    card-style: summary_large_image
+    creator: "@jschultecloos"
+  open-graph:
+    image: "/img/twitter.png"
+    locale: en_US

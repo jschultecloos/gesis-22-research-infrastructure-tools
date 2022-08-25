@@ -1,0 +1,57 @@
+---
+title: "{{< fa calendar >}} Schedule"
+---
+
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+pacman::p_load(googlesheets4, 
+               gt, 
+               tidyverse, 
+               lubridate, 
+               fontawesome)
+
+gs4_deauth()
+d <- read_sheet("https://docs.google.com/spreadsheets/d/1w1fTWsbCGNoiYPYrWbc2zKA3dXT5ddkwMAnZ-DzxXjI/edit?usp=sharing")
+```
+
+
+```{r, echo = FALSE}
+d %>%
+  mutate(date = as.Date(date)) %>%
+  rename_with(
+    .cols = everything(),
+    .fn = ~ str_to_title(.x)
+  ) %>%
+  gt() %>%
+  text_transform(cells_body(columns = c(Reading)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("book", fill_opacity = 0.1),
+        glue::glue("<a href = {x}>{fontawesome::fa('book')}</a>")
+      )
+    }
+  ) %>%
+  text_transform(cells_body(columns = c(Slides)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("laptop", fill_opacity = 0.1),
+        glue::glue("<a href = {x}>{fontawesome::fa('laptop')}</a>")
+      )
+    }
+  ) %>%
+  text_transform(cells_body(columns = c(`Lab Exercises`)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("note-sticky", fill_opacity = 0.1),
+        glue::glue("<a href = {x}>{fontawesome::fa('note-sticky')}</a>")
+      )
+    }
+   ) %>%
+  text_transform(cells_body(columns = c(Solutions)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("lightbulb", fill_opacity = 0.1),
+        glue::glue("<a href = {x}>{fontawesome::fa('lightbulb')}</a>")
+      )
+    }
+  )  %>%
+  fmt_date(Date, date_style = 9) %>%
+  sub_missing(columns = Date, missing_text = "")
+  
+```

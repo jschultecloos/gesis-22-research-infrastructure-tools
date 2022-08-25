@@ -1,0 +1,34 @@
+author: Julia Schulte-Cloos and Lukas Lehner
+
+instructor1:
+  name: "Julia Schulte-Cloos"
+  email: "julia.schulte-cloos@eui.eu"
+  url: "https://jschultecloos.github.io"
+  twitter: jschultecloos
+  github: jschultecloos
+
+instructor2: 
+  name: "Lukas Lehner"
+  email: "lukas.lehner@spi.ox.ac.uk"
+  url: "https://lukaslehner.github.io"
+  twitter: "lukasLehner_"
+  github: "lukaslehner"
+
+course:
+  title: |
+    👩‍💻 👨‍💻 <br>
+    Tools for efficient workflows, smooth collaboration and optimised research outputs <br>
+    🤸‍♀️🤸🏽‍♂️
+  subtitle: "GESIS Fall Seminar in Computational Social Science 2022 <br>This course trains students to write reproducible research papers, track their work through version control, and efficiently disseminate their research output."
+  semester: "Fall 2022"
+  time: "05-09 Sep 2022 <br>10:00 - 17:00"
+  location: "[GESIS - Mannheim](https://goo.gl/maps/UKUtsYqaqkYZcK23A)"
+  room: "Conference Room 2"
+  url: "https://jschultecloos.github.io/gesis-22-research-infrastructure-tools"
+  copyright_year: "2022"
+
+abstract: | 
+  Literate programming, version control, and containers enable us to create reproducible workflows, track code, and build stable research infrastructure. 
+  The benefits are greater efficiency, ease of tracing our research progress, and smoother collaboration with other researchers. 
+  This course provides participants with the skills to harness the potential of these tools.  
+  It equips them with a toolkit to track and disseminate their code, data, and analyses, both when working on independent projects and in collaborations with others.

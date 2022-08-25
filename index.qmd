@@ -1,0 +1,61 @@
+---
+title: "{{< var course.title >}}"
+subtitle: "{{< var course.subtitle >}}"
+title-block-banner: "#f3e2b4"
+toc: false
+sidebar: false
+---
+
+
+### Instructors
+
+<span></span>     | <span></span>     | <span></span>    | <span></span>    |  <span></span>      
+------------------|-------------------|------------------|------------------|------------------ 
+![](/img/jsc.png){width=30}        | [{{< var instructor1.name >}}]({{< var instructor1.url >}}) | <a href="mailto:{{< var instructor1.email >}}" title="email">{{< fa envelope >}}</a> &nbsp; <a href="https://github.com/{{< var instructor1.github >}}" title="GitHub">{{< fa brands github >}}</i></a> &nbsp; <a href="https://twitter.com/{{< var instructor1.twitter >}}" title="Twitter">{{< fa brands twitter >}}</a> 
+![](/img/ll.png){width=30}         | [{{< var instructor2.name >}}]({{< var instructor2.url >}}) | <a href="mailto:{{< var instructor2.email >}}" title="email">{{< fa envelope >}}</a> &nbsp; <a href="https://github.com/{{< var instructor2.github >}}" title="GitHub">{{< fa brands github >}}</i></a> &nbsp; <a href="https://twitter.com/{{< var instructor2.twitter >}}" title="Twitter">{{< fa brands twitter >}}</a> 
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+<br>
+
+# {{< fa location-pin >}} {.icon}
+
+##### {{< var course.location >}} {.center}
+:::
+
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+<br>
+
+# {{< fa university >}} {.icon}
+
+##### {{< var course.room >}} {.center}
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+<br>
+
+# {{< fa calendar >}} {.icon}
+
+##### {{< var course.time >}}  {.center} 
+:::
+
+:::
+
+### Description
+
+{{< var abstract >}}
+
+### Software
+
+This course is based on open-source programming languages and software environments. We support the principles of 'Open Data' and 'Open Code'. Please make sure to install the following software ahead of class: 
+
+- [R](https://www.r-project.org/)
+- [R Studio](https://www.rstudio.com/products/rstudio/download/) or [Visual Studio Code](https://visualstudio.microsoft.com/downloads/)
+- [Quarto](https://quarto.org/docs/download/index.html)
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [GitHub Desktop](https://desktop.github.com/)
+- [Docker](https://docs.docker.com/engine/install/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
