@@ -55,6 +55,7 @@ This course is based on open-source programming languages and software environme
 - [R](https://www.r-project.org/)
 - [R Studio](https://www.rstudio.com/products/rstudio/download/) or [Visual Studio Code](https://visualstudio.microsoft.com/downloads/)
 - [Quarto](https://quarto.org/docs/download/index.html)
+- [TinyTex via R](https://bookdown.org/yihui/rmarkdown-cookbook/install-latex.html) or [via Quarto](https://quarto.org/docs/output-formats/pdf-engine.html#installing-tex)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [GitHub Desktop](https://desktop.github.com/)
 - [Docker](https://docs.docker.com/engine/install/)
