@@ -23,6 +23,12 @@ d %>%
     .fn = ~ str_to_title(.x)
   ) %>%
   gt() %>%
+  cols_width(
+    Day ~ px(150)) %>% 
+  cols_align(
+    align = "left",
+    columns = Day
+  ) %>%     
   text_transform(cells_body(columns = c(Reading)),
     fn = function(x) {
       ifelse(is.na(x), fontawesome::fa("book", fill_opacity = 0.1),

@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "👩‍💻 👨‍💻  Tools for efficient workflows, smooth collaboration and optimised research outputs  🤸‍♀️🤸🏽‍♂️",
-    "section": "",
-    "text": "Description\nLiterate programming, version control, and containers enable us to create reproducible workflows, track code, and build stable research infrastructure. The benefits are greater efficiency, ease of tracing our research progress, and smoother collaboration with other researchers. This course provides participants with the skills to harness the potential of these tools.\nIt equips them with a toolkit to track and disseminate their code, data, and analyses, both when working on independent projects and in collaborations with others.\n\n\nSoftware\nThis course is based on open-source programming languages and software environments. We support the principles of ‘Open Data’ and ‘Open Code’. Please make sure to install the following software ahead of class:\n\nR\nR Studio or Visual Studio Code\nQuarto\nTinyTex via R or via Quarto\nGit\nGitHub Desktop\nDocker\nDocker Desktop"
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": " Schedule",
     "section": "",
     "text": "Day\n      Date\n      Topic\n      Reading\n      Slides\n      Lab Exercises\n      Solutions\n    \n  \n  \n    1\n5 September\nAutomatable reports\n\n\n\n\n    2\n6 September\nVersion control\n\n\n\n\n    3\n7 September\nDissemination and academic websites\n\n\n\n\n    4\n8 September\nContainerisation for reproducible environments\n\n\n\n\n    5\n9 September\nAdvanced research infrastructure"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "👩‍💻 👨‍💻  Tools for efficient workflows, smooth collaboration and optimised research outputs  🤸‍♀️🤸🏽‍♂️",
+    "section": "",
+    "text": "Description\nLiterate programming, version control, and containers enable us to create reproducible workflows, track code, and build stable research infrastructure. The benefits are greater efficiency, ease of tracing our research progress, and smoother collaboration with other researchers. This course provides participants with the skills to harness the potential of these tools.\nIt equips them with a toolkit to track and disseminate their code, data, and analyses, both when working on independent projects and in collaborations with others.\n\n\nSoftware\nThis course is based on open-source programming languages and software environments. We support the principles of ‘Open Data’ and ‘Open Code’. Please make sure to install the following software ahead of class:\n\nR\nR Studio or Visual Studio Code\nQuarto\nTinyTex via R or via Quarto\nGit\nGitHub Desktop\nDocker\nDocker Desktop"
   }
 ]
