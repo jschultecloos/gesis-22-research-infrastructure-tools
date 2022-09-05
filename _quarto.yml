@@ -19,6 +19,7 @@ execute:
 website:
   title: "Tools for efficient workflows, smooth collaboration and optimised research outputs"
   site-url: "https://jschultecloos.github.io/gesis-22-research-infrastructure-tools"
+  google-analytics: G-6K7S7YCCQL
   description-meta: "GESIS Fall Seminar in Computational Social Science 2022. This course trains students to write reproducible research papers, track their work through version control, and efficiently disseminate their research output."
   navbar:
     pinned: true

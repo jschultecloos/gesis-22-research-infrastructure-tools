@@ -24,7 +24,7 @@ d %>%
   ) %>%
   gt() %>%
   cols_width(
-    Day ~ px(150)) %>% 
+    Day ~ px(100)) %>% 
   cols_align(
     align = "left",
     columns = Day
