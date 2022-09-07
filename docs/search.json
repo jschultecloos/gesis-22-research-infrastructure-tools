@@ -7,13 +7,6 @@
     "text": "Description\nLiterate programming, version control, and containers enable us to create reproducible workflows, track code, and build stable research infrastructure. The benefits are greater efficiency, ease of tracing our research progress, and smoother collaboration with other researchers. This course provides participants with the skills to harness the potential of these tools.\nIt equips them with a toolkit to track and disseminate their code, data, and analyses, both when working on independent projects and in collaborations with others.\n\n\nSoftware\nThis course is based on open-source programming languages and software environments. We support the principles of ‘Open Data’ and ‘Open Code’. Please make sure to install the following software ahead of class:\n\nR\nR Studio or Visual Studio Code\nQuarto\nTinyTex via R or via Quarto\nGit\nGitHub Desktop\nDocker\nDocker Desktop"
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": " Schedule",
-    "section": "",
-    "text": "Day\n      Date\n      Topic\n      Reading\n      Slides\n      Lab Exercises\n      Solutions\n    \n  \n  \n    1\n5 September\nAutomatable reports\n\n\n\n\n    2\n6 September\nVersion control\n\n\n\n\n    3\n7 September\nDissemination and academic websites\n\n\n\n\n    4\n8 September\nContainerisation for reproducible environments\n\n\n\n\n    5\n9 September\nAdvanced research infrastructure"
-  },
-  {
     "objectID": "materials.html",
     "href": "materials.html",
     "title": " Materials",
@@ -21,24 +14,10 @@
     "text": "Day 1\n\n\n\n\n\n\nDay 2"
   },
   {
-    "objectID": "materials.html#lab-session-1",
-    "href": "materials.html#lab-session-1",
-    "title": " Materials",
-    "section": "Create a reproducible document that…",
-    "text": "Create a reproducible document that…\n\n\nincludes a title and your authoring information\nfeatures a footnote and an image\nfeatures some real literate programming (e.g., printing some calcuation within the written text)\ncan be rendered both to HTML and PDF\n\n\n\n🎁 Bonus\nTurn your Rmd file into a Quarto document (…or the other way around!) What are some of the differences?"
-  },
-  {
-    "objectID": "materials.html#lab-session-2",
-    "href": "materials.html#lab-session-2",
-    "title": " Materials",
-    "section": "Create a reproducible document that…",
-    "text": "Create a reproducible document that…\n\n\nadds a bib-file and cites some work out of it\nfeatures 1.5 line spacing in its PDF version\nincludes cross-references to a regression table (hint: try to work with modelsummary)\n\n\n\n🎁 Bonus\nIntegrate two tables side-by-side, each with its own sub-caption (hint: Quarto makes it quite easy to solve this task)"
-  },
-  {
-    "objectID": "materials.html#lab-session-3",
-    "href": "materials.html#lab-session-3",
-    "title": " Materials",
-    "section": "Create a reproducible Quarto document that…",
-    "text": "Create a reproducible Quarto document that…\n\n\nincludes a dedicated title block with all your information and all information of your co-author(s)\ncan be rendered both to an html file and a “submission-ready” journal manuscript\nwhich kind of author-related information can be included in the PDF? ☝️ Hint: here is a starting point to improve this!\n\n\n\n🎁 Bonus\nDownload and integrate a Lua-filter that allows you to exclude certain elements of the reproducible document depending on the output format (blog post vs. manuscript)."
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": " Schedule",
+    "section": "",
+    "text": "Day\n      Date\n      Topic\n      Reading\n      Slides\n      Lab Exercises\n      Solutions\n    \n  \n  \n    1\n5 September\nAutomatable reports\n\n\n\n\n    2\n6 September\nVersion control\n\n\n\n\n    3\n7 September\nDissemination and academic websites\n\n\n\n\n    4\n8 September\nContainerisation for reproducible environments\n\n\n\n\n    5\n9 September\nAdvanced research infrastructure"
   }
 ]
