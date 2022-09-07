@@ -1,0 +1,16 @@
+{
+  "hash": "afda8855ee415704cd646f0d7bd3e7a6",
+  "result": {
+    "markdown": "---\ntitle: \"{{< fa folder-open >}} Materials\"\nexecute: \n  echo: false\ntoc-title: \"\"\n---\n\n::: {.cell}\n\n:::\n\n\n# Day 1 \n\n\n::: {.cell}\n<iframe src=\"./assets/worksheet_day1.html\" width=\"672\" height=\"400px\" data-external=\"1\"></iframe>\n:::\n\n\n\n# Day 2\n\n\n::: {.cell}\n<iframe src=\"./assets/worksheet_day2.html\" width=\"672\" height=\"400px\" data-external=\"1\"></iframe>\n:::\n",
+    "supporting": [
+      "materials_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

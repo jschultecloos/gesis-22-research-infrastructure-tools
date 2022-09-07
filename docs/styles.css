@@ -35,3 +35,8 @@ h1.title, .title.h1 {
 a {
 	color: #a35905;
   }
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+border-left: 1px solid #a35905;
+color: #ebb00f !important;
+}  

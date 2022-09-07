@@ -1,0 +1,32 @@
+---
+title: "{{< fa folder-open >}} Materials"
+execute: 
+  echo: false
+toc-title: ""
+---
+
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+
+pacman::p_load(
+    htmlwidgets, 
+    htmltools,
+    tidyverse, 
+    lubridate, 
+    fontawesome)
+
+```
+
+# Day 1 
+
+```{r}
+knitr::include_url("./assets/worksheet_day1.html")
+```
+
+
+# Day 2
+
+```{r}
+knitr::include_url("./assets/worksheet_day2.html")
+```
+

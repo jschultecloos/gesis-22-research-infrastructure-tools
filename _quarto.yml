@@ -26,6 +26,7 @@ website:
     background: "#ebb00f"
     right:
       - schedule.qmd
+      - materials.qmd
       - href: "https://training.gesis.org/?site=pDetails&child=full&pID=0xB75F899267F14C648AED7D43EBFF3BFB&subID=0x0ECFCCE392F64C7281C5FDE598767F2F"
         text: "{{< fa link >}}"
     
